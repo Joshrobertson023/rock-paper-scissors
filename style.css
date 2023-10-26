@@ -5,7 +5,7 @@ body {
    background-color: #ffffff;
    padding: 100px 10px;
    height: 100vh;
-   overflow-y: hidden;
+   width: 100wh;
 }
 
 h1 {
@@ -19,6 +19,7 @@ h1 {
    font-size: 62px;
    margin-bottom: 0px;
    font-weight: 600;
+   text-align: center;
 }
 
 button {
@@ -38,6 +39,7 @@ button {
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-wrap: wrap;
 }
 
 .results {
